@@ -7,8 +7,6 @@ def min_rooms_needed(guests: int) -> int:
         raise ValueError("Number of guests cannot be negative")
     return math.ceil(guests / 3)
 
-# Example
-# print(min_rooms_needed(10))  # output: 4
 
 ##Question 1.2
 
